@@ -1,0 +1,198 @@
+html { background-color: #A7CAE0; }
+
+header { text-align: center; }
+h3 { color: white; padding-top: 10px;}
+h4, h1 { color: #5d2c1e; padding: 5px;}
+h4 { font-size: 20px; padding-top: 5px; padding-bottom: 14px;}
+
+h3 {
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 44px;
+	padding-bottom: 20px; padding-top: 25px;
+}
+
+/*header*/
+
+#navbar ul li { 
+	display: inline; 
+	color: white;
+	font-size: 14px;
+	color: #A7CAE0;
+	margin: 5px;
+}
+
+#navbar ul li a { color: inherit; }
+
+#navbar ul {
+	position: relative;
+	top: 12px;
+}
+
+#navbar {
+	background-color: #5d2c1e;
+	height: 44px;
+}
+
+/*footer*/
+
+#footer ul li {
+	display: inline; 
+	margin: 5px;
+	color: #5d2c1e; 
+	position: relative; 
+	top: 5px;
+	font-size: 12px;
+}
+#footer ul {
+	border-top: 1px solid #5d2c1e;
+	margin-right: 160px;
+	margin-left: 160px;
+	height: 40px;
+}
+#footer {
+	position: relative;
+	bottom: -110px;
+	width: 100%;
+	text-align: center;
+}
+
+/*general*/
+p, a, h2, h5, h6, li {
+	font-family: 'Cabin', sans-serif;
+	line-height: 20px;
+}
+
+#content {
+	text-align: center;
+}
+
+p { 
+	color: #5d2c1e;
+	line-height: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+img {
+	border: 7px solid white;
+}
+
+ul {
+	color: #5d2c1e;
+	list-style-type: inherit;
+	margin-left: 30px;
+}
+
+ul li {
+	margin: 5px;
+}
+
+/*homepage page content*/
+#home-image {
+	position: relative;
+	top: 50px;
+	width: 28%;
+}
+#quote {
+	position: relative;
+	width: 50%;
+	left: 25%;
+	top: 70px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	font-style: italic;
+	line-height: 30px;
+	background-color: #779aaf;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*homebirth contents*/
+h5 {
+	font-size: 20px;
+	color: #5d2c1e;
+	margin-bottom: 2px;
+}
+#info {
+	position: relative;
+	width: 540px;
+	left: 40%;
+	top: 50px;
+	text-align: left;
+}
+
+#image-div {
+	display: inline-block;
+	width: 50px;
+	position: absolute;
+	right: 80%;
+	top: 200px;
+}
+
+#image-div img {
+	width: 400%;
+	margin: 30px;
+}
+
+/*doula page*/
+#doula-text {
+	position: relative;
+	width: 60%;
+	left: 20%;
+	top: 50px;
+	text-align: left;
+}
+
+#text-indent {
+	position: relative;
+	left: 40px;
+}
+
+#doula-image {
+	position: relative;
+	float: right;
+	width: 30%;
+	margin: 20px;
+}
+
+/*about page*/
+#about-text {
+	position: relative;
+	left: 30%;
+	width: 50%;
+	text-align: left;
+	top: 40px;
+}
+
+#about-image {
+	width: 40%;
+	float: right;
+	margin: 20px;
+}
+
+/*philosophy*/
+#quote2 { color: white; }
+#philosophy-image {
+	width: 15%;
+	top: 250px;
+	position: absolute;
+	left: 10%;
+}
+
+/*contact*/
+#contact-text { text-align: center;}
